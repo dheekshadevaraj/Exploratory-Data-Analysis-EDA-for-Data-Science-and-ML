@@ -1,13 +1,4 @@
 # **Exploratory Data Analysis (EDA) for data science and ML**
-Imagine that you're traveling through an unfamiliar area that has no road signs or GPS coverage. As you approach a fork in the road, you're faced with a decision: left or right? Which path will you take? Which turn leads to your destination?
-
-Your chances of success hinge solely on random chance. Opting for the left turn might prove correct, but there's an equal chance it could be wrong. The same holds true for choosing the right turn.
-
-Traveling without road signs is like conducting data science without exploratory data analysis (EDA). Without EDA, a data scientist might stumble upon a great prediction model, but it would be purely by chance: akin to taking the correct turn without any information whatsoever.
-
-Despite the obvious risks of embarking on a data science project without EDA, this is regrettably common, especially among beginners. Hence, it's crucial for novices to grasp fundamental EDA techniques early on and consistently apply them in every project, no matter how minor.
-
-Ease your data science journey by putting up figurative road signs through effective EDA. In this hands-on guided project, you learn how to conduct simple and easy-to-remember EDA using Python. You also learn how to apply the insights obtained by using EDA for the purposes of enhancing a prediction model.
 
 <center>
 <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-GPXX0HE1EN/antonio_33943_A_fork_in_a_road_with_a_left_and_right_turn._A_ro_7a9c2af5-0772-49da-941a-4d2dbf54d10f.png" width="80%" alt="LDA illustration">
@@ -41,36 +32,20 @@ Ease your data science journey by putting up figurative road signs through effec
                 <ol>
                     <li>
                         <a href="#A-look-at-the-beginning-and-end-of-the-data-set">A look at the beginning and end of the data set</a>
-                        <ol>
-                            <li><a href="#Exercise-1">Exercise 1</a></li>
-                        </ol>
                     </li>
                     <li>
                         <a href="#Describe-the-DataFrame">Describe the DataFrame</a>
-                        <ol>
-                            <li><a href="#Exercise-2">Exercise 2</a></li>
-                        </ol>
                     </li>
                     <li>
-                        <a href="#Missing-values">Missing values</a>
-                        <ol>
-                            <li><a href="#Exercise-3">Exercise 3</a></li>
-                            <li><a href="#Exercise-4">Exercise 4</a></li>
-                        </ol>
+                        <a href="#Missing-values">Missing values</a>    
                     </li>
                     <li><a href="#Drop-missing-observations">Drop missing observations</a></li>
                     <li><a href="#Fill-in-missing-values-with-the-mean">Fill in missing values with the mean</a></li>
                     <li>
                         <a href="#Fill-in-missing-values-with-the-median">Fill in missing values with the median</a>
-                        <ol>
-                            <li><a href="#Exercise-5">Exercise 5</a></li>
-                        </ol>
                     </li>
                     <li>
-                        <a href="#Histograms-and-boxplots">Histograms and boxplots</a>
-                        <ol>
-                            <li><a href="#Exercise-6">Exercise 6</a></li>
-                        </ol>
+                        <a href="#Histograms-and-boxplots">Histograms and boxplots</a>  
                     </li>
                     <li><a href="#Correlation-matrix">Correlation matrix</a></li>
                     <li><a href="#Pair-plots">Pair plots</a></li>
@@ -85,10 +60,6 @@ Ease your data science journey by putting up figurative road signs through effec
             <li><a href="#Import-the-iris-data-set">Import the iris data set</a></li>
             <li>
                 <a href="#Perform-EDA-on-the-iris-data-set">Perform EDA on the iris data set</a>
-                <ol>
-                    <li><a href="#Exercise-7">Exercise 7</a></li>
-                    <li><a href="#Exercise-8">Exercise 8</a></li>
-                </ol>
             </li>
         </ol>
     </li>
@@ -104,6 +75,7 @@ After completing this lab we are able to:
  - Perform basic feature engineering
  - Detect and handle outliers
  - Deal with missing data
+   
 ## Setup
 For this lab, we use the following libraries:
 
